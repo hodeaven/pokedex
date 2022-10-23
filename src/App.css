@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+
+.container{
+  display: flex;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  block-size: 2rem
+
+}
+.container-header{
+  display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
